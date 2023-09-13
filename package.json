@@ -1,0 +1,25 @@
+{
+  "name": "css-screensize",
+  "version": "1.0.0",
+  "description": "Capture CSS `<number>` vars for screen --width and --height. 100% CSS, Zero JS",
+  "main": "screensize.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/propjockey/css-screensize.git"
+  },
+  "keywords": [
+    "CSS",
+    "width",
+    "height",
+    "vars"
+  ],
+  "author": "Jane Ori",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/propjockey/css-screensize/issues"
+  },
+  "homepage": "https://github.com/propjockey/css-screensize#readme"
+}
