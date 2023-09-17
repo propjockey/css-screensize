@@ -28,7 +28,7 @@ Then include the `/node_modules/css-screensize/screensize.css` file anywhere in 
 
 Place the following HTML anywhere on the page:
 ```html
-<ol class="css-screensize" aria-hidden="true"><li><p><p><p><p><li><p><p><p><p><li><li></ol>
+<ol class="css-screensize" aria-hidden="true"><li><li><p><p><p><p><li><li></ol>
 ```
 
 If you prefer cleaner/less minified markup, or different elements, as long as the dom shape is equivelant, with `css-screensize` class on the base, any elements will do.
@@ -41,7 +41,7 @@ Once captured, `css-screensize` disappears and `:root` will have `--width` and `
 
 `calc(var(--height) * 1px)` is equal to the computed pixel size of `100vh`
 
-If the window resizes more than 10px, `css-screensize` will reappear and prompt for :hover again automatically.
+If the window resizes more than 3px, `css-screensize` will reappear and prompt for :hover again automatically.
 
 You can (should) customize the appearance of the prompt by adding CSS to your page like so:
 
@@ -63,7 +63,7 @@ Additionally, the default behavior is fixed position and covering the whole scre
 
 ```html
 <div class="my-container">
-  <ol class="css-screensize contained" aria-hidden="true"><li><p><p><p><p><li><p><p><p><p><li><li></ol>
+  <ol class="css-screensize contained" aria-hidden="true"><li><li><p><p><p><p><li><li></ol>
 </div>
 ```
 

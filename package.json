@@ -1,6 +1,6 @@
 {
   "name": "css-screensize",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Capture CSS `<number>` vars for screen --width and --height. 100% CSS, Zero JS",
   "main": "screensize.css",
   "scripts": {

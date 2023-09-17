@@ -67,7 +67,7 @@
 }
 .css-screensize > :nth-child(-n+2) :nth-child(4) {
   left: calc((1px - (
-    1px + max(-1px, min(0px, 100000 * (var(--_pj_scrnsz_do-reset) - 10px)))
+    1px + max(-1px, min(0px, 100000 * (var(--_pj_scrnsz_do-reset) - 3px)))
   )) * 10000);
   background: purple;
 }
@@ -108,7 +108,7 @@
   z-index: 9999;
   list-style: none;
   left: calc((1px - (
-    1px + max(-1px, min(0px, 100000 * (var(--_pj_scrnsz_do-reset) - 10px)))
+    1px + max(-1px, min(0px, 100000 * (var(--_pj_scrnsz_do-reset) - 3px)))
   )) * 10000 * min(1, var(--height)));
   background: var(--background);
   top: calc((1 - clamp(0, 10000 * var(--enable, 1), 1)) * 100%);
